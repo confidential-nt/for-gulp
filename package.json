@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "gulp dev",
-    "build": "gulp build"
+    "build": "gulp build",
+    "deploy": "gulp deploy"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,15 @@
   },
   "homepage": "https://github.com/confidential-nt/gulppractice#readme",
   "dependencies": {
-    "gulp-imagemin": "^7.1.0"
+    "babelify": "^10.0.0",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-bro": "^2.0.0",
+    "gulp-csso": "^4.0.1",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^5.0.0",
+    "uglifyify": "^5.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
@@ -29,5 +38,8 @@
     "gulp-image": "^6.2.1",
     "gulp-pug": "^4.0.1",
     "gulp-webserver": "^0.9.1"
-  }
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
 }
